@@ -1,0 +1,18 @@
+.accordion-heading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.accordion-content {
+    overflow: hidden;
+}
+
+.accordion-content.not-visible {
+    height: 0;
+}
+
+.accordion-content.visible {
+    height: auto;
+    padding: 20px;
+}
